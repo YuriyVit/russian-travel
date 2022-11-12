@@ -1,5 +1,6 @@
 .photo-grid {
   display: grid;
+  justify-content: space-between;
   width: calc(100% - 48px*2);
   padding: 0;
   margin: 98px auto 0;

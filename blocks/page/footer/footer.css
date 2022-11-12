@@ -1,6 +1,6 @@
 .footer {
   position: relative;
-  margin: 13px 48px 24px;
+  margin: 13px auto 24px;
   width: calc(100% - (48px*2));
   height: 18px;
 }
