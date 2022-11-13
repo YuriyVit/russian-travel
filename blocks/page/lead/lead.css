@@ -3,6 +3,7 @@
   flex-direction: column;
   justify-content: center;
   margin: 56px auto 0;
+  padding: 0;
   width: calc(100vw - (148px*2));
 }
 
