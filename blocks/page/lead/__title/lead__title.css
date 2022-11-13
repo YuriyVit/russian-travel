@@ -4,6 +4,7 @@
   margin: auto;
   width: calc(100vw - (280px*2));
   min-height: 200px;
+  font-family: 'Inter';
   font-weight: 900;
   font-size: 96px;
   line-height: 100px;

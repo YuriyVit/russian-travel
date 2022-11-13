@@ -3,6 +3,7 @@
   width: calc(100vw - (460*2px));
   margin: 32px auto 0;
   color: white;
+  font-family: 'Inter';
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;

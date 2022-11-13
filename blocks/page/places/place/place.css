@@ -27,5 +27,8 @@
 @media screen and (max-width: 768px) {
   .place {
     width: 320px;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
   }
 }

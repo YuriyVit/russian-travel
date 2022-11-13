@@ -1,9 +1,21 @@
 .place__paragraph {
   padding: 0;
   margin: 0 0 37px auto;
+  font-family: 'Inter';
   font-weight: 400;
   font-size: 18px;
-  line-height: 163%;
+  line-height: 29px;
   color: white;
 }
 
+@media screen and (max-width: 1024px) {
+  .place__paragraph {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__paragraph {
+    line-height: 26px;
+  }
+}
