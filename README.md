@@ -18,3 +18,5 @@
 
 
 Спасибо за внимание.
+
+Ссылка на репозиторий: https://yuriyvit.github.io/russian-travel/
