@@ -1,0 +1,20 @@
+.footer__copyright {
+  display: inline-flex;
+  margin: 0 0 0 auto;
+  font-family: 'Inter', 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 680px) {
+  .footer__copyright {
+    margin-left: 0;
+    margin-top: 48px;
+    font-size: 14px;
+    line-height: 14px;
+  }
+}
+
