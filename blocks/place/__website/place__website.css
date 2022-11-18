@@ -18,8 +18,8 @@
 
 @media screen and (max-width: 608px) {
   .place__website {
-    width: calc(100vw - 16px*2);
-    margin: 32px auto;
+    max-width: calc(100vw - 24px*2);
+    margin: 32px auto 0;
     grid-column: 1;
     grid-row: 2;
   }

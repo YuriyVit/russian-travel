@@ -24,8 +24,7 @@
 
 @media screen and (max-width: 608px) {
   .place__title {
-    margin: auto;
-    width: calc(100vw - (16px*2));
+    max-width: 100%;
     font-size: 32px;
     line-height: 35px;
     grid-column: 1;

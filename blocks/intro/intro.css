@@ -21,13 +21,14 @@
 @media screen and (max-width: 768px) {
   .intro {
     width: calc(100vw - (24px*2));
-    margin: 64px auto 0;
+    margin: 86px auto 0;
   }
 }
 
 
 @media screen and (max-width: 320px) {
   .intro {
+    margin-top: 64px;
     width: calc(100vw - (16px*2));
   }
 }

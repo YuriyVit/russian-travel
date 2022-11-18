@@ -9,17 +9,25 @@
   .place__paragraph-container {
     margin-left: 32px;
   }
-}@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 768px) {
   .place__paragraph-container {
     margin-left: 28px;
   }
 }
 
-@media screen and (max-width: 608px) {
+@media screen and (max-width: 630px) {
   .place__paragraph-container {
-    width: calc(100vw - 16px*2);
     margin: 0 auto 0;
+    max-width: 95%;
     grid-column: 1;
     grid-row: 4;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__paragraph-container {
+    width: 100vw;
   }
 }

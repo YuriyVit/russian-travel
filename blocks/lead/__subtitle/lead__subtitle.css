@@ -10,12 +10,6 @@
   color: #fff;
 }
 
-@media screen and (min-width: 1280px) {
-  .lead__subtitle {
-    width: 640px;
-  }
-}
-
 @media screen and (max-width: 767px) {
   .lead__subtitle {
     width: calc(100vw - 16px*2);
@@ -35,8 +29,6 @@
 @media screen and (max-width: 320px) {
   .lead__subtitle { 
     width: 288px;
-    margin-top: 16px;
-    margin-bottom: 40px;
   }
 }
 

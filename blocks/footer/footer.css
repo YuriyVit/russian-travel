@@ -4,17 +4,18 @@
   justify-content: start;
   position: relative;
   margin: 92px auto 0;
+  padding: 0;
   width: calc(100% - (48px*2));
 }
 
 @media screen and (min-width: 1280px) {
-  .footer{
+  .footer {
     width: 1184px;
   }
 }
 
-@media screen and (min-width: 768px) {
-  .footer{
+@media screen and (max-width: 768px) {
+  .footer {
     width: calc(100% - (24px*2));
     margin-top: 88px;
   }
@@ -22,8 +23,9 @@
 
 @media screen and (max-width: 680px) {
   .footer {
-    display: flex;
+    display: grid;
     flex-direction: column;
-    margin-top: 64px;
+    margin: 64px auto 0 16px;
+    width: 186px;
   }
 }
