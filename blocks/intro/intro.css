@@ -6,7 +6,6 @@
 
 @media screen and (min-width: 1281px) {
   .intro {
-    width: 690px;
     margin: 92px auto;
     padding-right: calc(984px - 690px);
   }

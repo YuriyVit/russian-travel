@@ -19,6 +19,6 @@
 
 @media screen and (max-width: 608px) {
   .place {
-    width: 95%;
+    width: 100vw;
   }
 }

@@ -19,8 +19,8 @@
 
 @media screen and (max-width: 630px) {
   .place__paragraph-container {
-    margin: 0 auto 0;
-    max-width: 95%;
+    width: calc(100vw - 32px);
+    margin: 0 auto;
     grid-column: 1;
     grid-row: 4;
   }
@@ -28,6 +28,6 @@
 
 @media screen and (max-width: 320px) {
   .place__paragraph-container {
-    width: 100vw;
+    width: calc(100vw - 32px);
   }
 }
