@@ -16,12 +16,17 @@
   }
 }
 
-@media screen and (max-width: 608px) {
+@media screen and (max-width: 633px) {
   .place__website {
-    max-width: 288px;
-    margin: 32px 0 0 16px;
+    width: 288px;
+    margin: 32px 0 32px 16px;
     grid-column: 1;
     grid-row: 2;
   }
 }
 
+@media screen and (max-width: 390px) {
+  .place__website {
+    width: calc(100% - 32px);
+  }
+}

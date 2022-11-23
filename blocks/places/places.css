@@ -1,5 +1,4 @@
 .places {
-  display: grid;
   margin: 92px auto 0;
   padding: 0;
   width: calc(100vw - 148px*2);
@@ -25,7 +24,7 @@
 
 @media screen and (max-width: 608px) {
   .places {
-    width: 100vw;
+    width: 100%;
     margin: 64px 0 0 0;
   }
 }

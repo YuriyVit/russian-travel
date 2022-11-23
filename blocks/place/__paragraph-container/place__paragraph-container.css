@@ -17,9 +17,9 @@
   }
 }
 
-@media screen and (max-width: 630px) {
+@media screen and (max-width: 633px) {
   .place__paragraph-container {
-    width: calc(100vw - 32px);
+    width: calc(100vw - 36px);
     margin: 0 auto;
     grid-column: 1;
     grid-row: 4;

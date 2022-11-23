@@ -24,16 +24,18 @@
 
 @media screen and (max-width: 608px) {
   .place__title {
-    max-width: 100%;
+    max-width: 288px;
     font-size: 32px;
     line-height: 35px;
     grid-column: 1;
     grid-row: 1;
+    margin: 0 0 0 16px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 390px) {
   .place__title {
-    width: calc(100vw - 32px);
+    width: calc(100% - 32px);
+    margin-left: 16px;
   }
 }
