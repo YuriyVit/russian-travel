@@ -21,8 +21,14 @@
 
 @media screen and (max-width: 633px) {
   .place__image {
-    margin-bottom: 32px;
+    margin: 0 0 32px 16px;
     grid-row: 3;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .place__image {
+    margin: 0 auto 16px;
   }
 }
 
